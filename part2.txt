@@ -3,10 +3,19 @@ Q1) Copy and paste the ID of the commit that caused the bug (fast shooting)?
 A: 25ede836903881848fea811df5b687b59d962da3
 
 Q2) Copy and paste the line(s) of code you expect to have caused the bug? 
+<<<<<<< HEAD
 A:  -this.delayBeforeBullet = 10;
+=======
+A:  - this.delayBeforeBullet = 10; (this important line was removed)
+>>>>>>> part2
 
 Q3) Fix the bug and commit your changes of this fix on the master branch? Paste the commit ID below.
 A: 51cb96d43b2765543fd2c18f45a4e9ca0ed9d9fc
 
 Q4) Copy and paste the name of the developer who has been recently working on the coins branch.
+<<<<<<< HEAD
 A:  Sarah Spikes <sarah@udacity.com>
+=======
+A: 
+
+>>>>>>> part2
