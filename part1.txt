@@ -1,26 +1,35 @@
 Answer the following, add your answer below each question:
 Q1-a) How many lines were added, how many lines were deleted in the commit 4035?
+A: 3 lines added, 2 lines deleted
 
 
 Q1-b) Copy and paste below the lines that were added?
-
+A: 
++  var frameInterval = 25;
++  var mainLoopId = setInterval(mainLoop, frameInterval);
++  mainLoopId = setInterval(mainLoop, frameInterval);
 
 
 Q1-c) Copy and paste below the lines that were deleted?
-
+A:
+-  var mainLoopId = setInterval(mainLoop, 25);
+-  mainLoopId = setInterval(mainLoop, 10);
 
 
 Q2) Copy and paste the names of the branches in this repo?
-
-
+A:
+- master
 
 Q3) Copy and paste the ID of the latest commit that saved changes in all three files: 
 game.js, index.html, and ipad.js? It's enough to paste the first 4 digits only.
+A: 3884
 
 
 Q4-a) Assuming a repository has several commits, a developer made some changes to the file named file1.txt
 and added it to the staging area, what command can be used to compare the file to the latest commit? Write the full command!
+A: git diff master file1.txt
 
 
 Q4-b) Continuing with the above assumption, the developer made more changes without staging the file,
 what is the command to compare the changes between the staging area and the working directory?
+A: git diff 
