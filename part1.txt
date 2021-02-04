@@ -19,10 +19,11 @@ A:
 Q2) Copy and paste the names of the branches in this repo?
 A:
 - master
+- coins
 
 Q3) Copy and paste the ID of the latest commit that saved changes in all three files: 
 game.js, index.html, and ipad.js? It's enough to paste the first 4 digits only.
-A: 3884
+A: 25ed
 
 
 Q4-a) Assuming a repository has several commits, a developer made some changes to the file named file1.txt
